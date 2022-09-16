@@ -20,6 +20,12 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://unpkg.com/react-bootstrap-typeahead/css/Typeahead.css"
           />
+          <meta
+            name="description"
+            content={
+              "Tools that provides all the necessary utilities for real life"
+            }
+          />
         </Head>
         <body>
           <div id="root">
