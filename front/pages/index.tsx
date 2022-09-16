@@ -6,14 +6,21 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand href="/">Simple Tools</Navbar.Brand>
-        {/* <div style={{ display: "flex" }}>
-          <div style={{ padding: "0 16px 0 0" }}></div>
-        </div> */}
-      </Container>
-    </Navbar>
+    <>
+      <Head>
+        <title>Simple Tools</title>
+      </Head>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="/">Simple Tools</Navbar.Brand>
+          <div style={{ display: "flex" }}>
+            <div style={{ padding: "0 16px 0 0", color: "white" }}>
+              Copyright @ rollrat. 2022.
+            </div>
+          </div>
+        </Container>
+      </Navbar>
+    </>
   );
 };
 
