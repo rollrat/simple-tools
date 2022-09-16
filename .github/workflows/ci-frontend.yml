@@ -5,7 +5,7 @@ on:
     branches:
       - "master"
     paths:
-      - frontend/**
+      - front/**
   pull_request:
     branches: [master]
   workflow_dispatch:
